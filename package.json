@@ -1,14 +1,15 @@
 {
-  "name": "vantari-connect",
+  "name": "vue-tailwind-inter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
     "vuex": "^3.1.3"
@@ -24,6 +25,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
+    "tailwindcss-font-inter": "^1.0.8",
     "vue-template-compiler": "^2.6.11"
   }
 }
